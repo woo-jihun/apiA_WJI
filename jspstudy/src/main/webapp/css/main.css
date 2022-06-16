@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+
+
+
+body {position: relative;
+	  right: 4px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 7rem;  
+    display: flex;
+    align-items: center;    
+    position: fixed;
+	top: 0;
+	right: 0px;
+	
+	background-color: rgba(0, 0, 0, 0.8);
+	-webkit-backdrop-filter: blur(5px);
+  	backdrop-filter: blur(5px);
+	z-index: 999;	
+	
+}
+
+
+
+
+
+.header > nav {
+	width:600px;
+	height:100%;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: bold;
+}
+
+header ul {
+ 	
+	width:100%;
+	height: 100%;
+	display: flex;
+
+}
+
+header ul > li {
+	line-height: 65px;	
+	font-size:19px;
+	word-spacing: 15px;
+	height: 100%;
+	display: flex;
+	padding: 0 23px;
+	z-index: 1;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: bold;
+	color: white;
+	}
+	
+header ul > #li:hover{color:c686ac;}
+
+
+.logo {
+	position: relative;
+	width: 40%;
+	top : 2px;
+	left : 400px;
+	
+	margin-left:10px;	
+}
+
+
+
+header ul > li > a {
+ 	color: white;
+}
+
+
+#mp{
+	position: relative;
+	top: -10px;
+	right : 180px;
+	float: left;
+	margin-left: 10px;
+	
+	
+}
+
+.mp {
+	
+	font-size: 11px;	
+	position: relative;	
+	top:-20px;
+	left : 500px;
+	font-family:  'NanumSquare', sans-serif; 
+	text-align : center;
+}
+
+.mp > h3 > a {
+ 	color: white;
+}
+
+
+.si {
+	position: relative;
+	top : 0px;
+	right : 6px;
+	width: 100%;
+}
+
+.abo {
+	text-align: center;
+	margin-left: auto; margin-right: auto;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: bold;
+	font-size:22px;
+}
+
+.abo_mi{
+	text-align: center;
+	margin-left: auto; margin-right: auto;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: Regular;
+	font-size:14px;
+}
+
+.abo1{
+	float: left;
+	position:absolute;
+    left: 500px;
+}
+
+
+.contents01, .contents02, .contents03{ width: 100%; height: 70px; background-color: white; }
+            
+#fixed01{
+	width: 100%; height: 300px;                       
+	background-image: url(image/fixed01.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center; 
+	background-attachment: fixed; 
+}
+
+#mabo .mabo_img {
+	position:absolute;
+    left: 900px;
+
+}
+
+#mabo .iu1 {
+	position:absolute;
+ 	bottom: -325px;
+    left: 480px;
+    font-size: 18px;
+    font-family:  'NanumSquare', sans-serif;    
+	font-weight: bold;
+	font-size:22px;
+}
+
+#mabo .iu2 {
+	position:absolute;
+ 	bottom: -400px;
+    left: 480px;
+    font-size: 14px;
+    font-family:  'NanumSquare', sans-serif;
+    font-weight: Regular;
+	font-size:14px;
+}
+
+
+

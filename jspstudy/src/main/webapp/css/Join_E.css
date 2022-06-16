@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body { 	   
+ 	   
+ 	   background-image: url('../image/login_bg.jpg');
+ 	   background-size: cover;
+}
+
+#join {
+	position: relative;	
+	top : 350px;
+	left: 750px;
+
+
+	width: 400px;
+	height: 300px;
+	
+}
+
+.joi {
+	text-align : center;	
+	color : white;
+	font-size : 30px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	text-underline-offset : 14px;	
+	
+	}
+
+
+#memberId { 
+	width: 400px;
+	height: 40px;	
+}
+
+#memberPwd { 
+	width: 400px;
+	height: 40px;	
+}
+#memberPwd2 { 
+	width: 400px;
+	height: 40px;	
+}
+#memberName { 
+	width: 400px;
+	height: 40px;	
+}
+#memberEmail { 
+	width: 400px;
+	height: 40px;	
+}
+#memberGender { 
+	width: 408px;
+	height: 45px;
+}
+#memberPhone {
+	width: 113.4px;
+	height: 40px;
+}
+
+
+.frm phone{
+	color : wihte;
+	}
+
+#but {
+	position: relative;	
+	right: 20px;
+	width: 550px;
+	float: left;
+	
+}
+
+#e_l {
+	
+	width: 200px;
+	height: 50px;
+	background-color : #d4d4d4;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+	border:none;
+	border-radius: 50px;
+}
+#e_l::placeholder {
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+
+}
+
+#E_m {
+	margin-left: 20px;
+	width: 200px;
+	height: 50px;
+	background-color : #ccaa75;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+	border:none;
+	border-radius: 50px;
+}
+#E_m::placeholder {
+font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+
+}
+
+
+.joe {	
+	text-align: center;
+	color: white;
+}

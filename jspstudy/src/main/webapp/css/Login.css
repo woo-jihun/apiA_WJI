@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body { 	   
+ 	   
+ 	   background-image: url('../image/login_bg.jpg');
+ 	   background-size: cover;
+}
+
+#Login {
+	position: relative;	
+	top : 340px;
+	left: 750px;
+
+
+	width: 400px;
+	height: 300px;
+	
+}
+
+.Log {
+	text-align : center;	
+	color : white;
+	font-size : 30px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	text-underline-offset : 14px;	
+	
+	}
+
+
+#memberId { 
+	width: 390px;
+	height: 40px;
+	Opacity: 50%;	
+	border-radius: 50px;
+}
+
+#memberPwd { 
+	width: 390px;
+	height: 40px;	
+	Opacity: 50%;
+	border-radius: 50px;
+}
+
+p { display: inline-block;
+}
+
+
+.a {
+	color : white;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+	font-size : 12px;
+}
+
+.b {
+	color : white;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+	font-size : 12px;
+}
+
+.c {
+	color : white;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+	font-size : 12px;
+}
+
+.c > a {
+	color : white;	
+	text-decoration: none;
+}
+
+#btn {
+	width: 408px;
+	height: 50px;
+	background-color : #ccaa75;
+	font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+	border:none;
+	border-radius: 50px;
+}
+#btn::placeholder {
+font-family:  'NanumSquare', sans-serif; 
+	font-weight: normal;
+
+}
+
+
